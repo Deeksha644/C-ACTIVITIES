@@ -2,10 +2,10 @@
 
 #include <stdio.h>
 
-flaot input(char a)
+flaot input(char b)
 {  
     char a;
-    printf("Enter the value of:");
+    printf("Enter the value %c:");
     scanf("%f",&a);
     return a;
 }
@@ -21,6 +21,6 @@ int main()
     b=input('b');
     d=input('d');
     V=volume(h,b,d);
-    printf("Volume of tromboloid is : %c",V);
+    printf("Volume of tromboloid is : %f",V);
     return 0;
 }
