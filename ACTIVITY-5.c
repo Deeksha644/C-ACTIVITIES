@@ -2,9 +2,9 @@
 
 #include <stdio.h>
 
-flaot input(char a)
+flaot input(char b)
 {  
-    char b;
+    float a;
     printf("Enter the value %c",b);
     scanf("%f",&a);
     return a;
