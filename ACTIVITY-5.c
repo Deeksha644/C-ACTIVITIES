@@ -5,7 +5,7 @@
 flaot input(char b)
 {  
     char a;
-    printf("Enter the value %c:");
+    printf("Enter the value %c,");
     scanf("%f",&a);
     return a;
 }
