@@ -5,8 +5,8 @@
 float input()
 {  
     char a;
-    printf("Enter the value:");
-    scanf("%f",&a);
+    printf("Enter the value of:");
+    scanf("%c",&a);
     return a;
 }
 float volume(float a, float b, float c)
