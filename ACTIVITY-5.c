@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-flaot input(char b)
+flaot input(float a)
 {  
     char a;
     printf("Enter the value %c,a");
