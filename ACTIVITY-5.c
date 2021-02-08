@@ -17,7 +17,7 @@ int main()
 {
     float h,b,d,V;
     h=input('h');
-    b=input('b;);
+    b=input('b');
     d=input('d');
     V=volume(h,b,d);
     printf("Volume of tromboloid is : %f",V);
