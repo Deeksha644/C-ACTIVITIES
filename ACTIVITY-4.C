@@ -24,6 +24,5 @@ int main()
     y=input();
     z=add(x,y);
     output(x,y,z);
-    return 0;
-    
+    return 0;   
 }
