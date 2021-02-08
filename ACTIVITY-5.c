@@ -2,11 +2,11 @@
 
 #include <stdio.h>
 
-float input(float a)
+flaot input(char a)
 {  
     char a;
     printf("Enter the value of:");
-    scanf("%c",&a);
+    scanf("%f",&a);
     return a;
 }
 float volume(float a, float b, float c)
@@ -21,6 +21,6 @@ int main()
     b=input('b');
     d=input('d');
     V=volume(h,b,d);
-    printf("Volume of tromboloid is : %f",V);
+    printf("Volume of tromboloid is : %c",V);
     return 0;
 }
