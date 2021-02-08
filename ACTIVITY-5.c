@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-float input()
+float input(float a)
 {  
     char a;
     printf("Enter the value of:");
