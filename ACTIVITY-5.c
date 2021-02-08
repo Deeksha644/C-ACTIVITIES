@@ -5,7 +5,7 @@
 flaot input(char b)
 {  
     float a;
-    printf("Enter the value %c",b);
+    printf("Enter the value of %c",b);
     scanf("%f",&a);
     return a;
 }
@@ -14,6 +14,11 @@ float volume(float a, float b, float c)
     float volume=(float)1/(float)3*((a*b*c)+(c/b));
     return volume;
 }
+void output(float a,float b,float c,float volume)
+{
+    printf("Volume of tromboloid is : %f",a,b,c,volume);
+}
+
 int main()
 {
     float h,b,d,V;
@@ -21,6 +26,7 @@ int main()
     b=input('b');
     d=input('d');
     V=volume(h,b,d);
-    printf("Volume of tromboloid is : %f",V);
+    void output(h,b,d,V)
+    
     return 0;
 }
