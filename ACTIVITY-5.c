@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-flaot input(char b)
+float input(char b)
 {  
     float a;
     printf("Enter the value of %c",b);
@@ -16,7 +16,7 @@ float find_vol(float a, float b, float c)
 }
 void output(float a,float b,float c,float volume)
 {
-    printf("Volume of tromboloid is : %f",a,b,c,volume);
+    printf("Volume of tromboloid is : %f",volume);
 }
 
 int main()
