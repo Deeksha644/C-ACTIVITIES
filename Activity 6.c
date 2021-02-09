@@ -1,0 +1,32 @@
+#program to find the distance between the points using four functions
+
+#include <stdio.h>
+#include<math.h>
+
+float input(char b1[])
+{  
+    float a;
+    printf("Enter the %s co-ordinate:",b1);
+    scanf("%f",&a);
+    return a;
+}
+float dist(float a1, float a2, float b1,float b2)
+{
+    float dist=sqrt((a2-a1)*(a2-a1)+(b2-b1)*(b2-b1));
+    return dist;
+}
+void output(float a1,float a2,float b1, float b2,float distance)
+{
+    printf("Distance between %f,%f and %f,%f is : %f",a1,a2,b1,b2,distance);
+}
+int main()
+{
+    float x1,x2,y1,y2,D;
+    x1=input("x1");
+    y1=input("y1");
+    x2=input("x2");
+    y2=input("y2");
+    D=dist(x1,x2,y1,y2);
+    output(x1,y1,x2,y2,D);
+    return 0;
+}
