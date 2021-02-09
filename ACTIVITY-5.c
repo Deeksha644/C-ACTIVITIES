@@ -26,7 +26,7 @@ int main()
     b=input('b');
     d=input('d');
     V=find_vol(h,b,d);
-    void output(h,b,d,V)
+    void output(V)
     
     return 0;
 }
