@@ -18,7 +18,6 @@ void output(float volume)
 {
     printf("Volume of tromboloid is : %f",volume);
 }
-
 int main()
 {
     float h,b,d,V;
@@ -26,7 +25,6 @@ int main()
     b=input('b');
     d=input('d');
     V=find_vol(h,b,d);
-    output(V)
-    
+    output(V);
     return 0;
 }
