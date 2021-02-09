@@ -5,7 +5,7 @@
 float input(char b)
 {  
     float a;
-    printf("Enter the value of %c",b);
+    printf("Enter the value of %c:",b);
     scanf("%f",&a);
     return a;
 }
