@@ -9,7 +9,7 @@ flaot input(char b)
     scanf("%f",&a);
     return a;
 }
-float volume(float a, float b, float c)
+float find_vol(float a, float b, float c)
 {
     float volume=(float)1/(float)3*((a*b*c)+(c/b));
     return volume;
@@ -25,7 +25,7 @@ int main()
     h=input('h');
     b=input('b');
     d=input('d');
-    V=volume(h,b,d);
+    V=find_vol(h,b,d);
     void output(h,b,d,V)
     
     return 0;
