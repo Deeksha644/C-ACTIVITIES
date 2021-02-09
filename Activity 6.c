@@ -16,7 +16,7 @@ float dist(float a1, float a2, float b1,float b2)
 }
 void output(float a1,float a2,float b1, float b2,float distance)
 {
-  printf("Distance between %f,%f and %f,%f is : %f",a1,a2,b1,b2,distance);
+  printf("Distance between (%f,%f) and (%f,%f) is : %f",a1,a2,b1,b2,distance);
 }
 int main()
 {
