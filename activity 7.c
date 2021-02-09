@@ -7,12 +7,12 @@ struct point
     float x,y;
 };
 typedef struct point Point;
-Point input()
+Point input(char b1[], char b2[])
 {
     Point p;
-    printf("Enter x-coordinate: ");
+    printf("Enter %s coordinate:",b1);
     scanf("%f",&p.x);
-    printf("Enter y-coordinate: ");
+    printf("Enter %s coordinate:",b2);
     scanf("%f",&p.y);
     return p;
 }
@@ -29,8 +29,8 @@ int main(void)
 {
     float D;
     Point p1,p2;
-    p1=input();
-    p2=input();
+    p1=input("x1","y1");
+    p2=input("x2","y2");
     D=dist(p1,p2);
     output(p1,p2,D);
     return 0;
