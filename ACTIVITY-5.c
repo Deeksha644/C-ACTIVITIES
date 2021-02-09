@@ -14,7 +14,7 @@ float find_vol(float a, float b, float c)
     float volume=(float)1/(float)3*((a*b*c)+(c/b));
     return volume;
 }
-void output(float a,float b,float c,float volume)
+void output(float volume)
 {
     printf("Volume of tromboloid is : %f",volume);
 }
