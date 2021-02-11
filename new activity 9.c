@@ -28,7 +28,7 @@ void show_results(int n, float a[n], float sum)
     int i;
     for(i=0;i<n-1;i++)
     {
-      printf("%f=%f",a[i],sum);  
+      printf("%f=.%2f",a[i],sum);  
     }
 }
 int main()
